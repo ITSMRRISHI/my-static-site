@@ -74,7 +74,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-name: Deploy Static Site to GitHub Pages
 
 on:
   push:
